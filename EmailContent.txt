@@ -1,0 +1,43 @@
+Dear {0},
+
+We hope this message finds you well. We're writing to let you know that your password for accessing our company's computer systems is about to expire.
+Please be aware that you will not be able to access to vpn once your password has expired.
+
+Password Expiration Details:
+Full Name: {0}
+Password Expiration Date: {2}
+User Account: {3}
+Email: {1}
+
+To make sure you can continue using your computer safely, we need you to change your password before the Expiration date.
+
+Here's what you should do:
+Log In: Start by turning on your computer and logging in like you usually do.  You may need to connect to the VPN using NetExtender if you are not at the office.
+
+Change Password: Press "Ctrl + Alt + Delete" together, then select "Change a password.".  Follow the instructions to create a new password.
+
+For more detailed instructions please refer to the How To docs available here - https://acecarpentry.sharepoint.com/sites/AceData/SitePages/HowToDocs.aspx
+
+New Password: Make sure your new password is something only you know and is not easy for others to guess.
+Password Requirements:
+Password must not contain the user's account name or more than two consecutive characters from the user's full name.
+Password must be ten (10) or more characters long.
+Password must contain characters from three of the following four categories:
+Uppercase characters A-Z (Latin alphabet)
+Lowercase characters a-z (Latin alphabet)
+Digits 0-9
+Special characters (!, $, #, %, etc.)
+
+Pleaes avoid using these and similiar words - "ace", "carpentry", "vpn", jobsite names, and other common names/words that are used around Ace Carpentry.
+
+Keeping our computer system safe is everyone's job, and changing passwords is a part of that.
+
+If you have any questions or concerns, please reach out to your supervisor or the IT department directly.
+Thank you for your attention to this matter and helping us make sure our information is secure.
+
+Automated Password Notification System
+Ace Carpentry, Inc.
+
+
+This is an automated email; please do not reply to this message.
+This message is for the designated recipient only and may contain privileged, proprietary, or otherwise private information.

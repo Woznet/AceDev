@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password Expiration Notification</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather:wght@300;400&family=Noto+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --soft-grey: #F4F4F4;
+            --dark-grey: #3B4D63;
+            --black: #1a1a1a;
+            --golden-yellow: #FFF2B1;
+            --sky-blue: #BBDFFF;
+            --text-dark-grey: #333333;
+            --text-light-grey: #E0E0E0;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: var(--soft-grey);
+            margin: 0;
+            padding: 0;
+            color: var(--text-dark-grey);
+        }
+
+        .container {
+            background-color: var(--soft-grey);
+            margin: 20px auto;
+            padding: 30px;
+            width: 80%;
+            border: 1px solid var(--dark-grey);
+            border-radius: 10px;
+        }
+
+        .header {
+            background-color: var(--dark-grey);
+            color: var(--soft-grey);
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px 8px 0 0;
+            font-size: 24px;
+        }
+
+        .info-box {
+            display: inline-block;
+            background-color: var(--golden-yellow);
+            border: 1px solid var(--dark-grey);
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0px 0px 25px;
+        }
+
+        .warning {
+            color: red;
+        }
+
+        .instructions {
+            margin-top: 15px;
+            background-color: var(--sky-blue);
+            border: 1px solid var(--dark-grey);
+            padding: 15px;
+            border-radius: 5px;
+            width: fit-content;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: var(--dark-grey);
+            color: var(--text-light-grey);
+            margin-top: 20px;
+            padding: 12px;
+            font-size: 12px;
+            font-weight: normal;
+            letter-spacing: 0.06em;
+            text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 0 0 8px 8px;
+        }
+
+        table.flex-table {
+            width: 100%;
+        }
+
+        table.flex-table th,
+        table.flex-table td {
+            padding: 1px;
+            text-align: left;
+        }
+
+        table.flex-table th {
+            text-align: right;
+            padding-right: 3px;
+        }
+
+        table.flex-table td {
+            padding-left: 3px;
+        }
+
+        .custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .custom-list li {
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .custom-list li i {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Password Expiration Notice</div>
+        <p>Dear Woz WonderBot,</p>
+        <p>We hope this message finds you well. We're writing to let you know that your password for accessing our company's computer systems is about to expire.<br>
+            <span class="warning">Please be aware that you will not be able to access the VPN once your password has expired.</span>
+        </p>
+
+
+<div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; display: inline-block; background-color: var(--golden-yellow);">
+    <div style="text-align: center; font-weight: bold; background-color: #f5f5f5; padding: 5px;">Password Expiration Details</div>
+    <table cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: auto; margin: 0;">
+        <tr>
+            <th style="text-align: right; padding: 5px; border-bottom: 1px solid #ccc;">Full Name:</th>
+            <td style="text-align: left; padding: 5px; border-bottom: 1px solid #ccc;">Woz WonderBot</td>
+        </tr>
+        <tr>
+            <th style="text-align: right; padding: 5px; border-bottom: 1px solid #ccc;">User Account:</th>
+            <td style="text-align: left; padding: 5px; border-bottom: 1px solid #ccc;">woz</td>
+        </tr>
+        <tr>
+            <th style="text-align: right; padding: 5px; border-bottom: 1px solid #ccc;">Expiration Date:</th>
+            <td style="text-align: left; padding: 5px; border-bottom: 1px solid #ccc;">9/30/2023 9:47:21 PM</td>
+        </tr>
+        <tr>
+            <th style="text-align: right; padding: 5px;">Email:</th>
+            <td style="text-align: left; padding: 5px;"><a href="mailto:woz@wonderbot.dev">woz@wonderbot.dev</a></td>
+        </tr>
+    </table>
+</div>
+
+        <p>For your computer's continued safe use, please change your password before it expires.</p>
+        
+        
+        
+<div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; background-color: var(--sky-blue); display: inline-block;">
+    <strong>Here's what you should do:</strong>
+    <ol style="margin-top: 15px;">
+        <li><strong>Log In:</strong> Start by turning on your computer and logging in like you usually do.
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li><i class="fa-solid fa-circle-exclamation"></i> <em><u>You may need to connect to the VPN if you are outside the office.</u></em></li>
+            </ul>
+        </li>
+        <li>
+            <strong>Update Your Password:</strong>
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li>Simultaneously press the <strong>Ctrl + Alt + Delete</strong> keys.</li>
+                <li>From the options that appear, choose "Change a password."</li>
+                <li>Follow the on-screen prompts to set a new, secure password.</li>
+            </ul>
+        </li>
+    </ol>
+    For a detailed guide, please see our 'How To' documentation - <a href="https://acecarpentry.sharepoint.com/sites/AceData/SitePages/HowToDocs.aspx">How To Docs</a>.
+</div>        
+        <br>
+
+        
+<div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; background-color: var(--golden-yellow); display: inline-block;">
+    <div style="text-align: center; font-weight: bold; background-color: #f5f5f5; padding: 5px;">New Password Requirements</div>
+    <ul style="margin-top: 15px;">
+        <li>Password must not contain the user's account name or more than two consecutive characters from the user's full name.</li>
+        <li>Password must be ten (10) or more characters long.</li>
+        <li>Password must contain characters from three of the following four categories:
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li>Uppercase letters (A-Z)</li>
+                <li>Lowercase letters (a-z)</li>
+                <li>Numbers (0-9)</li>
+                <li>Non-alphanumeric characters (!, $, #, %, etc.)</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+        <p>If you encounter any issues or require assistance, please contact Chris Walker with the IT Department at <a href="mailto:cwalker@acecarpentry.com">cwalker@acecarpentry.com</a> or speak with your supervisor.</p>
+        <div class="footer">Ace Carpentry IT Department | All Rights Reserved &copy; 2023</div>
+    </div>
+</body>
+
+</html>
